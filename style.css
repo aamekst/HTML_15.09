@@ -1,0 +1,59 @@
+
+h1{
+    color:aqua;
+    text-align: center;
+    font-size: 80px;
+    font-family: Arial, 'Helvetica', sans-serif;
+}
+
+.para{
+    color: LightSeaGreen;
+    text-align: left;
+}
+
+#p1{
+    color: LightCoral;
+    text-align: center;
+}
+
+p{
+    color: #33FF33;
+    text-align: right;
+}
+
+h1.para{
+    color: Magenta	;
+    text-align: center;
+}
+
+h2#td{
+    background-color: aquamarine;
+    color: #4E8397;
+    text-align: center;
+    
+}
+
+/*grupamento de coisas com estilo iguais
+
+h1,h2,h3{ 
+    color:black
+}
+
+h1,h2,h3 .nomeclasse{ 
+    color:black
+}
+
+h1,h2,h3 .nomeid{ 
+    color:black
+}
+*/
+
+div p{ /* todo elemento p dentro da div , primeiro é caracteristica e o segundo tem que está dentro*/
+    background-color: yellow;
+    font-size: 20px;
+    color: orangered;
+}
+
+div{
+    background-color: Lavender;
+}

@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exemplo de formulário</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Exemplo de formulário</h1>
+        <form>
+            <label for="tx-nomeCompleto">Nome completo:</label> <br>
+            <input type="text" name="nomeCompleto" id="tx-nomeCompleto" placeholder="Escreva seu nome"> <br>
+
+            <label for="tx-senha">Senha:</label> <br>
+            <input type="password" name="senha" id="tx-senha"> <br>
+
+            <label for="ta-mensagem">Digite sua mensagem:</label> <br>
+            <textarea name="mensagem" id="ta-mensagem" rows="5" cols="30"></textarea><br>
+
+            <label for="se-estado">Selecione seu estado:</label><br>
+            <select name="estado" id="se-estado">
+                <option value="AL">Alagoas</option>
+                <option value="BA">Bahia</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP" selected>São Paulo</option>
+                <option value="SE">Sergipe</option>
+            </select> <br>
+
+            <fieldset>
+                <legend>Selecione suas disciplinas favoritas:</legend>
+                <input type="checkbox" name="disciplina" id="cb-devweb" value="devweb" checked> <label for="cb-devweb">Desenvolvimento Web</label> <br>
+
+                <input type="checkbox" name="disciplina" id="cb-poo" value="poo"> <label for="cb-poo">Programação Orientada a Objetos</label> <br>
+
+                <input type="checkbox" name="disciplina" id="cb-sql" value="sql" checked> <label for="cb-sql">Linguagem SQL</label> <br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Selecione o seu sexo:</legend>
+                <input type="radio" name="sexo" id="ra-feminino" value="F" checked> <label for="ra-feminino">Feminino</label>
+
+                <input type="radio" name="sexo" id="ra-masculino" value="M"> <label for="ra-masculino">Masculino</label>
+            </fieldset>
+
+            <br><br>
+            <input type="submit" value="Submeter"><!--button submit - envia os dados por criação de requisição, na url no QUERY string, emvia na propria pagina-->
+        </form>
+    </body>
+</html>
